@@ -18,5 +18,5 @@ def entra_dados():
     lista_numeros.append(numero)
     numero = float(input("\nDigite o segundo número: "))
     lista_numeros.append(numero)
-    numero = input("\nInforme a operação desejada:\n+ para adição\n- para subtração\n* para multiplicação\n/ para divisão\n")
+    numero = input("\nInforme a operação desejada:\n1 para adição\n2 para subtração\n3 para multiplicação\n4 para divisão\n")
     lista_numeros.append(numero)

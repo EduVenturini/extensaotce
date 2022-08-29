@@ -8,18 +8,19 @@ Autor: Eduardo S Venturini
 Data: 29/08/2022
 Versão: 0.0.3
 """
+import entra
 
 #Processamento de Dados
 
 def calc(numero_1, numero_2, numero_3):
-    if numero_3 == +
+    if numero_3 == 1:
         calculo = numero_1 + numero_2
-    elif numero_3 == -
+    elif numero_3 == 2:
         calculo = numero_1 - numero_2
-    elif numero_3 == *
+    elif numero_3 == 3:
         calculo = numero_1 * numero_2
-    else numero_3 == /
-        if numero_2 == 0
-        return "Não se pode dividir por zero."
-        else calculo = numero_1 / numero_2
+    elif numero_3 == 4:
+        if numero_2 == 0:
+             "Não se pode dividir por zero."
+        calculo = numero_1 / numero_2
     return calculo

@@ -19,12 +19,10 @@ def main():
     lista = entra.entra_dados()
 
     #Processamento
-   #pareia aqui aritmetica = )
+    calculo = aritmetica.calc(numero_1, numero_2, numero_3)
 
     #Saida
-    sai.saida(opera, x, y)
-
-
+    sai.saida(numero_1, numero_2, calc)
 
 
 #Execução do programa

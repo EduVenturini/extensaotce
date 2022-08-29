@@ -9,10 +9,8 @@ Data: 29/08/2022
 Versão: 0.0.1
 """
 
-import aritmetica
-
 #Saida
 #o programa mostra uma mensagem com o resultado
-def saida(opera, numero_1, numero_2)
-    print(f"\nA operação entre {numero_1} e {numero_2} é igual a {opera}.")
+def saida(numero_1, numero_2, calc):
+    print(f"\nA operação entre {numero_1} e {numero_2} é igual a {calc}.")
 
