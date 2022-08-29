@@ -6,23 +6,20 @@ e um módulo - chamado aritmetico.py - além de módulos que forneçam
 funções de entrada e saída de dados.
 Autor: Eduardo S Venturini
 Data: 29/08/2022
-Versão: 0.0.2
+Versão: 0.0.3
 """
 
 #Processamento de Dados
 
-def calc(operacao, numero_1, numero_2):
-    if operacao == +
+def calc(numero_1, numero_2, numero_3):
+    if numero_3 == +
         opera = numero_1 + numero_2
-        return opera
-    elif operacao == -
+    elif numero_3 == -
         opera = numero_1 - numero_2
-        return opera
-    elif operacao == *
+    elif numero_3 == *
         opera = numero_1 * numero_2
-        return opera
-    else operacao == /
+    else numero_3 == /
         if numero_2 == 0
         return "Não se pode dividir por zero."
         else opera = numero_1 / numero_2
-        return opera
+    return calc
