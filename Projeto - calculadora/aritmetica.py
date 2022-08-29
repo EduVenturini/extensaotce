@@ -13,13 +13,13 @@ Versão: 0.0.3
 
 def calc(numero_1, numero_2, numero_3):
     if numero_3 == +
-        opera = numero_1 + numero_2
+        calculo = numero_1 + numero_2
     elif numero_3 == -
-        opera = numero_1 - numero_2
+        calculo = numero_1 - numero_2
     elif numero_3 == *
-        opera = numero_1 * numero_2
+        calculo = numero_1 * numero_2
     else numero_3 == /
         if numero_2 == 0
         return "Não se pode dividir por zero."
-        else opera = numero_1 / numero_2
-    return calc
+        else calculo = numero_1 / numero_2
+    return calculo
