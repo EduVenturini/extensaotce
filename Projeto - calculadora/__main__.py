@@ -9,15 +9,17 @@ Data: 29/08/2022
 Versão: 0.0.2
 """
 
+import entra
+import aritmetica
+import sai
 
 #main (escrever o módulo principal)
 def main():
     #Entrada
-    lista = entra.entrada()
-    operacao = entra.operacao()
+    lista = entra.entra_dados()
 
     #Processamento
-    aritmetica = entra.calc(opera, numero_1, numero_2)
+   #pareia aqui aritmetica = )
 
     #Saida
     sai.saida(opera, x, y)

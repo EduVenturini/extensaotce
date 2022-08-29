@@ -6,19 +6,17 @@ e um módulo - chamado aritmetico.py - além de módulos que forneçam
 funções de entrada e saída de dados.
 Autor: Eduardo S Venturini
 Data: 29/08/2022
-Versão: 0.0.2 - entrada dos números somente
+Versão: 0.0.3 - cria a lista com tudo
 """
 
 #Entrada de dados
 
 def entra_dados():
-    """Esta função (procedimento) lê dois números digitados pelo usuário."""
-    i = 0
+    #Entra os dados de número e operação em uma lista
     lista_numeros = []
-    while i < 2:
-        numeros = float(input("\nDigite um número: "))
-        lista_numeros.append(numero)
-        i+=1
-    return lista_numeros
-    operacao = input("\nInforme a operação desejada:\n+ para adição\n- para subtração\n* para multiplicação\n/ para divisão\n")
-    return operacao
+    numero = float(input("\nDigite o primeiro número: "))
+    lista_numeros.append(numero)
+    numero = float(input("\nDigite o segundo número: "))
+    lista_numeros.append(numero)
+    numero = input("\nInforme a operação desejada:\n+ para adição\n- para subtração\n* para multiplicação\n/ para divisão\n")
+    lista_numeros.append(numero)
