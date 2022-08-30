@@ -6,11 +6,12 @@ e um módulo - chamado aritmetico.py - além de módulos que forneçam
 funções de entrada e saída de dados.
 Autor: Eduardo S Venturini
 Data: 29/08/2022
-Versão: 0.0.1
+Versão: 0.0.2
 """
 
+
 #Saida
-#o programa mostra uma mensagem com o resultado
-def saida(numero_1, numero_2, calc):
-    print(f"\nA operação entre {numero_1} e {numero_2} é igual a {calc}.")
+#O programa mostra uma mensagem com o resultado
+def saida(valor):
+    print(f"\nA operação resulta em {valor}.")
 
