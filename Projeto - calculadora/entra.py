@@ -13,6 +13,6 @@ Versão: 0.0.9 - do zero
 
 def entrada() -> list:
     #Entra os dados de número em uma lista
-    x = float(input("\nDigite o primeiro número: "))
-    y = float(input("\nDigite o segundo número: "))
+    x = float(input("\nDigite o primeiro número e clique enter: "))
+    y = float(input("\nDigite o segundo número e clique enter: "))
     return [x, y]
