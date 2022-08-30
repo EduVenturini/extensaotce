@@ -12,7 +12,7 @@ Versão: 0.0.9 - do zero
 #Entrada de dados
 
 def entrada() -> list:
-    #Entra os dados de número e operação em uma lista
+    #Entra os dados de número em uma lista
     x = float(input("\nDigite o primeiro número: "))
     y = float(input("\nDigite o segundo número: "))
     return [x, y]
